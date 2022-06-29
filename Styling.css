@@ -53,6 +53,28 @@ About
 #About {
     padding-top: 100px;
 }
+@media (max-width:767px) {
+    #AboutPic {
+display: none;
+}
+
+}
+@media (max-width:767px){
+    #programBox{
+        border-radius: 0 0 6px 6px;
+    }
+    #learnBox{
+        border-radius: 6px 6px 0 0;
+        }
+}
+@media (min-width:768px){
+    #learnBox{
+        border-radius: 6px 0px 0px 6px;
+        }
+    #programBox{
+        border-radius: 6px;
+    }
+}
 #AboutText {
     font-size: 15pt;
 }
@@ -82,11 +104,18 @@ margin-left: 10vw;
 }
 }
 **/
-@media (min-width: 768px){
+@media (min-width: 767px){
     #Intro {
 margin-right: 20vw;
 margin-left: 20vw;
 }
+}
+@media (min-width:992px){ #VertThumb {
+    max-width: 100%;
+}}
+
+#VertThumb{
+    max-height: 200px;
 }
 
 /**
