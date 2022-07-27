@@ -163,3 +163,27 @@ padding-top: 5vh;
     0F00FF
     **/
     
+    /**
+    BLOG INFINTIE SCROLL
+    **/
+
+    .blog {
+        height: 65vh;
+        width: 100%;
+        transition: .5s;
+    }
+    .blog .one:hover {
+        height: 80vh;
+    }
+    .blog .two:hover {
+        height: 80vh;
+    }
+    .blogClicked {
+        height: 90vh;
+    }
+    .one {
+        background-color: greenyellow;
+    }
+    .two {
+        background-color: orangered;
+    }
